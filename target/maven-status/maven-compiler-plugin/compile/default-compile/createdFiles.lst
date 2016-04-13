@@ -1,2 +1,3 @@
 com\kfly\servelt\HelloWorldServlet.class
 com\kfly\filter\HelloFilter.class
+com\kfly\servelt\UploadServlet.class
