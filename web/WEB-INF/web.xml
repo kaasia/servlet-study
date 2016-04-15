@@ -5,7 +5,7 @@
          version="3.1">
     <context-param>
         <param-name>file-upload</param-name>
-        <param-value>D:\IdeaProjects\servlet-study</param-value>
+        <param-value>D:\IdeaProjects\servlet-study\uploads</param-value>
     </context-param>
     <filter>
         <filter-name>HelloFilter</filter-name>

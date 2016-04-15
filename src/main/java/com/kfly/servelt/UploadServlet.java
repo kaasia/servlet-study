@@ -63,11 +63,13 @@ public class UploadServlet extends HttpServlet {
                     boolean isInMemory = fi.isInMemory();
                     long sizeInBytes = fi.getSize();
                     if(fileName.lastIndexOf("\\")>=0){
-                        file = new File(filepath+fileName.substring(fileName.lastIndexOf("\\")));
+                        file = new File(filepath+"\\"+fileName.substring(fileName.lastIndexOf("\\")));
                     }else{
-                        file = new File(filepath+fileName.substring(fileName.lastIndexOf("\\")+1));
+                        file = new File(filepath+"\\"+fileName.substring(fileName.lastIndexOf("\\")+1));
                     }
                     fi.write(file);
+                    System.out.println(filepath);
+                    System.out.println(file.toString());
                     out.println("uploaded Filename:"+fileName+"<br>");
 
                 }
