@@ -1,3 +1,4 @@
+com\kfly\servelt\UploadServlet.class
 com\kfly\servelt\HelloWorldServlet.class
 com\kfly\filter\HelloFilter.class
-com\kfly\servelt\UploadServlet.class
+com\kfly\servelt\GetFileServlet.class
